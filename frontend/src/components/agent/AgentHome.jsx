@@ -1,5 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
-import { FaClipboardList, FaSignOutAlt, FaUserCog, FaArrowRight } from "react-icons/fa";
+import {
+  FaClipboardList,
+  FaSignOutAlt,
+  FaUserCog,
+  FaArrowRight,
+} from "react-icons/fa";
 
 function AgentHome() {
   const navigate = useNavigate();
@@ -36,12 +41,8 @@ function AgentHome() {
 
       {/* Dashboard */}
       <div className="max-w-7xl mx-auto px-6 py-10">
-        <h1 className="text-4xl font-bold text-slate-800">
-          Agent Dashboard
-        </h1>
-        <p className="text-slate-500 mt-2">
-          Manage your assigned complaints.
-        </p>
+        <h1 className="text-4xl font-bold text-slate-800">Agent Dashboard</h1>
+        <p className="text-slate-500 mt-2">Manage your assigned complaints.</p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-10">
           <Link

@@ -105,7 +105,7 @@ Online-Complaint-Registration-System/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/mdarshnaqi786-code/ONLINE-COMPLAINT-REGISTRATION-/
+git clone https://github.com/mdarshnaqi786-code/ONLINE-COMPLAINT-REGISTRATION-
 ```
 
 
